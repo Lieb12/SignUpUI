@@ -10,7 +10,10 @@ import UIKit
 
 class SignUpSuccessVC: UIViewController {
     
+    @IBOutlet weak var signupLabel: UITextField!
     @IBOutlet weak var termBtn: UIButton!
+    
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -19,7 +19,14 @@ class ViewController: UIViewController {
         createAcctBtn.layer.cornerRadius = 25
         LoginBtn.layer.cornerRadius = 25
     }
+    
+    @IBAction func createTapped() {
+        present(SignUpVC(), animated: true)
+    }
 
+    @IBAction func loginTapped() {
+        present(LoginVC(), animated: true)
+    }
 
 }
 
