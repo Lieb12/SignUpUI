@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let defaults = UserDefaults.standard
+    @IBOutlet weak var createAcctBtn: UIButton!
+    @IBOutlet weak var LoginBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        createAcctBtn.layer.cornerRadius = 25
+        LoginBtn.layer.cornerRadius = 25
     }
 
 
